@@ -1,1 +1,1 @@
-depth = room_height - bbox_bottom + 1;
+depth = -bbox_bottom + 1;

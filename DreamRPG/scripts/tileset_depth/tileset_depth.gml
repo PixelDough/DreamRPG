@@ -2,14 +2,6 @@
 /// @param Layer_Name
 /// @param Grid_Width
 /// @param Grid_Height
-/// @param Depth_Offset
-/*
-this script will sort the tilemap of a given layer into multiple layers set at various depth
-to emulate dynamic depth based on the y value of each tile. 
-basically this script sets each tile's depth to = depth_offset(should be room_height) - y;
-so any object wich also has it's depth set dynamically will appear above and below the tiles 
-appropriately.
-*/
 
 var lay_id = layer_get_id(argument0);
 var map_id = layer_tilemap_get_id(lay_id);
@@ -18,10 +10,10 @@ var tile_id = tilemap_get_tileset(map_id);
 //craete layers and tilemaps at depths. 
 var grid_x = argument1;
 var grid_y = argument2;
-var depth_offset = argument3;
+var depth_offset = room_height;
 var i = 0;
 repeat(depth_offset/grid_y){
-tiledepth_layer[i] = layer_create(depth_offset-i-(grid_y-1));
+tiledepth_layer[i] = layer_create(-i-(grid_y-1));
 tiledepth_tilemap[i] = layer_tilemap_create(tiledepth_layer[i], 0, 0, tile_id, room_width/grid_x, room_height/grid_y);
 i += grid_y;}
 
@@ -45,6 +37,5 @@ cx += grid_x;}//x
 cy += grid_y;}//y
 
 }
-
 
 
