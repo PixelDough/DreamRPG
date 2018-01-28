@@ -1,0 +1,1 @@
+draw_sprite(sprite_index, (x%32)/8 + (y%32)/8, x, y);

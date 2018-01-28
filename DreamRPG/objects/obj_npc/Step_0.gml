@@ -1,4 +1,4 @@
-grid_move(dir, sp);
+grid_move(dir, spd);
 dir = -1
 
 depth_sort();

@@ -21,6 +21,6 @@ else if input.d MOVE = 3
 //	}
 //}
 
-grid_move(MOVE, sp);
+grid_move(MOVE, spd);
 
 depth_sort();
