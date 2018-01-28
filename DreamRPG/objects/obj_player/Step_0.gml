@@ -1,18 +1,26 @@
-if place_snapped(16, 16) {
-	if keyboard_check(vk_right) {
-		motion_set(0, 1);
-		image_index = 1;
-	} else if keyboard_check(vk_up) {
-		motion_set(90, 1);
-		image_index = 2;
-	} else if keyboard_check(vk_left) {
-		motion_set(180, 1);
-		image_index = 3;
-	} else if keyboard_check(vk_down) {
-		motion_set(270, 1);
-		image_index = 0;
-	} else {
-		motion_set(0,0);
-	}
-}
+MOVE = -1;
+if input.r MOVE = 0
+else if input.u MOVE = 1
+else if input.l MOVE = 2
+else if input.d MOVE = 3
+
+//if place_snapped(16, 16) {
+//	motion_set(0,0);
+//	if keyboard_check(vk_right) {
+//		if !place_meeting(x+16, y, obj_solid) motion_set(0, 1);
+//		image_index = 1;
+//	} else if keyboard_check(vk_up) {
+//		if !place_meeting(x, y-16, obj_solid) motion_set(90, 1);
+//		image_index = 2;
+//	} else if keyboard_check(vk_left) {
+//		if !place_meeting(x-16, y, obj_solid) motion_set(180, 1);
+//		image_index = 3;
+//	} else if keyboard_check(vk_down) {
+//		if !place_meeting(x, y+16, obj_solid) motion_set(270, 1);
+//		image_index = 0;
+//	}
+//}
+
+grid_move(MOVE, sp);
+
 depth_sort();
