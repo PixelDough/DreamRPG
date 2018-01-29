@@ -5,5 +5,5 @@ if player_exists {
 
 camera_set_view_pos(view_camera, camx, camy);
 //camera_set_view_size(view_camera, 400 + obj_player.x, 224 + obj_player.y);
-view_set_wport(view_camera, 400 + obj_player.x);
-view_set_hport(view_camera, 224 + obj_player.y);
+//view_set_wport(view_camera, 400 + obj_player.x);
+//view_set_hport(view_camera, 224 + obj_player.y);

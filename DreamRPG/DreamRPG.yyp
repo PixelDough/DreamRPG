@@ -58,6 +58,25 @@
             }
         },
         {
+            "Key": "0ae45ab2-d1cc-4262-bc03-fa669f5148c5",
+            "Value": {
+                "id": "5d7a6bf6-be6d-4800-8eb9-41de746ee115",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "notes\/compatibility_report_280118_1729502950.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "0b1760e2-92b9-4091-b540-0238ce54f83a",
             "Value": {
                 "id": "967729fd-1392-4e5b-8b85-9dde1b5a98ec",
@@ -112,6 +131,25 @@
                 ],
                 "resourcePath": "views\/0f3a6a89-f7a3-4803-ac8f-310828624489.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "14662d82-89d1-4d98-a4ba-c461f321c807",
+            "Value": {
+                "id": "418c9b14-9bb6-4c8c-8d63-205655575e6c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "extensions\/Pixel_Perfect_Camera\/Pixel_Perfect_Camera.yy",
+                "resourceType": "GMExtension"
             }
         },
         {
