@@ -1,4 +1,5 @@
 MOVE = -1;
+
 if input.r MOVE = 0
 else if input.u MOVE = 1
 else if input.l MOVE = 2
@@ -21,6 +22,8 @@ else if input.d MOVE = 3
 //	}
 //}
 
-grid_move(MOVE, spd);
+if grid_move(MOVE, spd) == true {
+	audio_play_sound(choose(snd_step_wood_1, snd_step_wood_2), 100, false);
+}
 
 depth_sort();

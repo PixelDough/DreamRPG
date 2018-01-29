@@ -1,1 +1,1 @@
-draw_sprite(sprite_index, (x%32)/8 + (y%32)/8, x, y);
+draw_sprite(sprite_index, (x%32)/(image_number*2) + (y%32)/(image_number*2), x, y);

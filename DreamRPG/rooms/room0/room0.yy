@@ -14,7 +14,6 @@
         "0d8bcdab-5d6f-41b8-abcb-cb8db3db69d9",
         "7f722d6a-5a3a-4042-be2f-1ca261f00677",
         "eb4ff499-39ac-45b4-af51-15e9b0e0c8ed",
-        "54baa608-6009-4808-97b6-9cbe4db51f96",
         "f7eae03f-dea5-487c-b57b-9df8e0c27007",
         "a6a12e60-8d0a-4438-95d1-fc8cb27942c6",
         "7a763dc7-7ee5-46f1-88f2-cfdae833bf71",
@@ -43,7 +42,8 @@
         "06c26eac-7cad-48a3-a188-816a85ea8e5f",
         "a07be911-96c1-43ee-8356-b1d8714b93a5",
         "c20d970d-d0c8-48e9-8381-31c8be15da91",
-        "b40b90ec-3374-40e1-91ac-525e39e02150"
+        "90d6f7d7-7517-4cb5-8353-ee38fb95feee",
+        "52831555-32f4-44b9-a252-744b4fee96ff"
     ],
     "IsDnD": false,
     "layers": [
@@ -171,9 +171,9 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_743132FD","id": "54baa608-6009-4808-97b6-9cbe4db51f96","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_743132FD","objId": "7eaaa68c-b022-4dd8-a2c2-3aa4cebe7c47","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 352,"y": 96},
 {"name": "inst_4CB0A8E","id": "06c26eac-7cad-48a3-a188-816a85ea8e5f","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_4CB0A8E","objId": "f95d47ba-baa9-46a6-9a01-b516b9a1daff","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 48,"y": 80},
-{"name": "inst_5A7F41A1","id": "b40b90ec-3374-40e1-91ac-525e39e02150","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_5A7F41A1","objId": "d8980f1c-6d1f-4992-b0d9-160fc6b46472","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 112,"y": 112}
+{"name": "inst_20A5BF96","id": "90d6f7d7-7517-4cb5-8353-ee38fb95feee","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_20A5BF96","objId": "6b59b347-a999-4d71-9af6-0389c9eed92f","properties": [{"id": "12f6e41d-4a8f-49f8-9c76-637f55f529de","modelName": "GMOverriddenProperty","objectId": "6b59b347-a999-4d71-9af6-0389c9eed92f","propertyId": "ffe3ec8e-31c6-44d7-a927-1eb98d1c2ea9","mvc": "1.0","value": "room1"}],"rotation": 0,"scaleX": 1,"scaleY": 4,"mvc": "1.0","x": 528,"y": 112},
+{"name": "inst_7492479","id": "52831555-32f4-44b9-a252-744b4fee96ff","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_7492479","objId": "bb025fe1-c529-43b3-a037-36ffffad4bb3","properties": [{"id": "39b2a03d-b49b-45f2-ad1c-0352814e61bf","modelName": "GMOverriddenProperty","objectId": "bb025fe1-c529-43b3-a037-36ffffad4bb3","propertyId": "14845c0a-2d38-44aa-8a65-b37bdc745611","mvc": "1.0","value": "room1"}],"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 496,"y": 80}
             ],
             "layers": [
 
@@ -209,7 +209,7 @@
             "mvc": "1.0",
             "tiles": {
                 "SerialiseData": null,
-                "SerialiseHeight": 28,
+                "SerialiseHeight": 14,
                 "SerialiseWidth": 32,
                 "TileSerialiseData": [
                     1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2147483648,2147483648,2147483648,2147483648,2147483648,
@@ -224,22 +224,8 @@
                     1,1,8,0,0,0,0,0,0,0,5,5,5,5,5,5,5,5,5,0,0,0,0,0,0,0,1,1,1,1,1,1,
                     1,1,1,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,
                     1,1,1,1,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,
-                    1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
-                    1,5,5,5,5,5,5,5,5,5,5,5,5,1,0,0,1,5,5,5,5,5,5,5,5,5,5,5,5,5,5,1,
-                    1,0,0,0,0,0,0,0,0,0,0,0,4,9,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-                    1,0,0,0,0,0,0,0,0,0,0,4,9,6,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-                    1,0,0,0,0,0,0,0,0,0,4,9,6,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-                    1,0,0,0,0,0,0,0,0,4,9,6,0,0,0,4,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-                    1,0,0,0,0,0,0,0,4,9,6,0,0,0,4,9,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-                    1,0,0,0,0,0,0,0,5,6,0,0,0,4,9,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-                    1,0,0,0,0,0,0,0,0,0,0,0,4,9,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-                    1,0,0,0,0,0,0,0,0,0,0,4,9,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-                    1,0,0,0,0,0,0,0,0,0,0,5,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-                    1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-                    1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-                    1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
                     1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
-                    5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
+                    1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
                 ]
             },
             "tilesetId": "9a048dcc-9847-4ae6-983e-14cbcb6ed153",
@@ -298,7 +284,7 @@
     },
     "roomSettings":     {
         "id": "eccc53b6-6d3f-4cb7-b11f-c452c836e95b",
-        "Height": 448,
+        "Height": 224,
         "inheritRoomSettings": false,
         "modelName": "GMRoomSettings",
         "persistent": false,

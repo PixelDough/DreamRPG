@@ -85,6 +85,48 @@
             "value": "0.5",
             "varName": "spd",
             "varType": 0
+        },
+        {
+            "id": "5c0f3bd3-37cd-43a8-881f-e4040e7ec86f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": true,
+            "rangeMax": 2,
+            "rangeMin": 1,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "steps",
+            "varType": 1
+        },
+        {
+            "id": "b22b2bcf-1620-4723-8ff4-7f8d2e458839",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "120",
+            "varName": "timer_min",
+            "varType": 0
+        },
+        {
+            "id": "26bbd7f3-d0cc-4160-b86b-b2e8c59cf544",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "240",
+            "varName": "timer_max",
+            "varType": 0
         }
     ],
     "solid": true,
