@@ -22,6 +22,8 @@ if instance_exists(obj_player) {
 
 camera_set_view_pos(view_camera, camx, camy);
 
+//window_set_position(camx, camy)
+
 if application_surface_is_enabled() and surface_exists(application_surface) and window_has_focus() {
 	//surface_resize(application_surface, window_get_width()-(window_get_width()%400), window_get_height()-(window_get_height()%224));
 	surface_resize(application_surface, window_get_width(), window_get_height());

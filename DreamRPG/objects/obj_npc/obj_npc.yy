@@ -127,6 +127,34 @@
             "value": "240",
             "varName": "timer_max",
             "varType": 0
+        },
+        {
+            "id": "832e9f8a-0e79-4328-8b40-b9cb57c45f7c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 4,
+            "value": "noone",
+            "varName": "sound_id",
+            "varType": 5
+        },
+        {
+            "id": "9cf00158-733a-4138-8448-2c0360f7a724",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": true,
+            "rangeMax": 2,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "sound_variation",
+            "varType": 0
         }
     ],
     "solid": true,

@@ -24,6 +24,14 @@
             "objectId": "7eaaa68c-b022-4dd8-a2c2-3aa4cebe7c47",
             "propertyId": "a93f2d5d-6f65-46ea-9ba7-1158e2f09bb6",
             "value": "0"
+        },
+        {
+            "id": "fb475f5d-43dd-4e38-b9b4-6a8f495cdd25",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "7eaaa68c-b022-4dd8-a2c2-3aa4cebe7c47",
+            "propertyId": "832e9f8a-0e79-4328-8b40-b9cb57c45f7c",
+            "value": "snd_step_wood_1"
         }
     ],
     "parentObjectId": "7eaaa68c-b022-4dd8-a2c2-3aa4cebe7c47",
