@@ -8,3 +8,11 @@ keyboard_set_map(ord("D"),vk_right);
 
 keyboard_set_map(ord("M"),ord("X"));
 keyboard_set_map(ord("N"),ord("Z"));
+
+keyboard_set_map(vk_numpad8,vk_up);
+keyboard_set_map(vk_numpad4,vk_left);
+keyboard_set_map(vk_numpad2,vk_down);
+keyboard_set_map(vk_numpad6,vk_right);
+
+keyboard_set_map(vk_numpad1,ord("X"));
+keyboard_set_map(vk_numpad3,ord("Z"));

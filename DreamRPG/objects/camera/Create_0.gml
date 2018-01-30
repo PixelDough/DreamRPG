@@ -1,0 +1,2 @@
+camx = x;
+camy = y

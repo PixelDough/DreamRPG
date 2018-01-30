@@ -1,0 +1,31 @@
+Converting GML script: ${project_dir}\scripts\resolution_set\resolution_set.gml
+Converted description /// @description resolution_set(ID)/// @function resolution_set
+/// @param ID
+
+Converting GML script: ${project_dir}\scripts\resolution_switch\resolution_switch.gml
+Converted description /// @description resolution_switch()/// @function resolution_switch
+
+Converting GML script: ${project_dir}\scripts\resolution_configure\resolution_configure.gml
+Converted builtin - line 7: view_wview[0] = dsp_width/scale -> __view_set( e__VW.WView, 0, dsp_width/scale )
+Converted builtin - line 14: view_wview[0] = cur_width/scale -> __view_set( e__VW.WView, 0, cur_width/scale )
+Converted builtin - line 8: view_hview[0] = dsp_height/scale -> __view_set( e__VW.HView, 0, dsp_height/scale )
+Converted builtin - line 15: view_hview[0] = cur_height/scale -> __view_set( e__VW.HView, 0, cur_height/scale )
+Converted description /// @description resolution_configure()/// @function resolution_configure
+
+Converting GML script: ${project_dir}\scripts\resolution_get_default\resolution_get_default.gml
+Converted description /// @description resolution_get_default()/// @function resolution_get_default
+
+Converting GML script: ${project_dir}\objects\obj_resolution\Create_0.gml
+Converted description /// @description RESOLUTION LIST
+
+Converting GML script: ${project_dir}\objects\obj_resolution\Alarm_0.gml
+Converted description /// @description CENTRE WINDOW
+
+Converting GML script: ${project_dir}\objects\obj_resolution\Other_4.gml
+Converted description /// @description CONFIGURE RESOLUTION ON ROOM START
+
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script 'view/__view_get.gml'
