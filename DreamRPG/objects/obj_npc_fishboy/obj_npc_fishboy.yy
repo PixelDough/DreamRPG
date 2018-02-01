@@ -32,6 +32,14 @@
             "objectId": "7eaaa68c-b022-4dd8-a2c2-3aa4cebe7c47",
             "propertyId": "832e9f8a-0e79-4328-8b40-b9cb57c45f7c",
             "value": "snd_step_wood_1"
+        },
+        {
+            "id": "597d1f1e-a2f9-4c59-a7eb-ff9ce5fb1ab0",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "7eaaa68c-b022-4dd8-a2c2-3aa4cebe7c47",
+            "propertyId": "24fbb2f0-2a79-4a85-ae96-371c635b798d",
+            "value": "npc_sound"
         }
     ],
     "parentObjectId": "7eaaa68c-b022-4dd8-a2c2-3aa4cebe7c47",

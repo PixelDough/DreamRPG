@@ -1,0 +1,1 @@
+draw_nineslice(spr_textbox, x, y, x+width, y+height);
